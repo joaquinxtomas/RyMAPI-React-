@@ -1,14 +1,12 @@
 import React from 'react';
 import './App.css';
-import Filter from './components/Filter';
+import Home from './components/Home';
 
 function App() {
     return (
         <>
             <React.StrictMode>
-                {/* <FilterProbando/> */}
-                <Filter />
-                {/* <TablePagination/> */}
+                <Home />
             </React.StrictMode>
         </>
     )

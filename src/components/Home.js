@@ -10,7 +10,7 @@ import Footer from './Footer/Footer';
 import { RxCross2 } from "react-icons/rx";
 
 
-const Filter = () => {
+const Home = () => {
     const [characters, setCharacters] = useState([])
     const [tablaUsuarios, setTablaUsuarios] = useState([])
     const [busqueda, setBusqueda] = useState("")
@@ -163,4 +163,4 @@ const Filter = () => {
     )
 }
 
-export default Filter
+export default Home
