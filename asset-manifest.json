@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/RyMAPI-React-/static/css/main.f5c4cf33.css",
+    "main.js": "/RyMAPI-React-/static/js/main.10532ce1.js",
+    "static/js/787.897a66c1.chunk.js": "/RyMAPI-React-/static/js/787.897a66c1.chunk.js",
+    "static/media/logo.png": "/RyMAPI-React-/static/media/logo.0cff77d1cd22fec8d595.png",
+    "index.html": "/RyMAPI-React-/index.html",
+    "main.f5c4cf33.css.map": "/RyMAPI-React-/static/css/main.f5c4cf33.css.map",
+    "main.10532ce1.js.map": "/RyMAPI-React-/static/js/main.10532ce1.js.map",
+    "787.897a66c1.chunk.js.map": "/RyMAPI-React-/static/js/787.897a66c1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5c4cf33.css",
+    "static/js/main.10532ce1.js"
+  ]
+}
