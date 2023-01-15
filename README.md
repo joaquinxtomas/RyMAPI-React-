@@ -1,4 +1,6 @@
-Primer proyecto utilizando React. Nuevamente una consumición de API de Rick and Morty, pero esta vez con dicho framework y rediseñado en base a avances en mis conocimientos. Incorpora un buscador en tiempo real y un paginado mejor optimizado que el proyecto sin React.
+Primer proyecto utilizando React. Nuevamente una consumición de API de Rick and Morty, pero esta vez con dicho framework y rediseñado en base a avances en mis conocimientos. Incorpora un buscador en tiempo real y un paginado mejor optimizado que el proyecto sin React. 
+
+
 First project using React. Again a Rick and Morty API consumption, but this time with said framework and redesigned based on advances in my knowledge. It incorporates a real-time search engine and better optimized paging than the project without React.
 
 # Getting Started with Create React App
