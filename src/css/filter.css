@@ -58,6 +58,7 @@
     height: 30px;
     border-radius: 7px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .first-appear:hover {
