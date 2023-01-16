@@ -86,7 +86,6 @@ const Home = () => {
                     if (data.results) {
                         setCharacters(data.results)
                         setTablaUsuarios(data.results)
-                        console.log(characters)
                     } else {
                         setPagina(pagina - 1)
                     }
@@ -97,7 +96,6 @@ const Home = () => {
 
 
     const cargarMenos = async () => {
-        console.log(pagina)
         if (pagina == 2) {
             setPagina(2)
         } else {
