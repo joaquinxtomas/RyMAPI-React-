@@ -129,7 +129,7 @@ const Home = () => {
                 <div className='container-input'>
                     <input className='input-filtro'
                         id='inputValor'
-                        placeholder="Busca tu personaje"
+                        placeholder="Search your character"
                         onChange={handleChange}
                         ref={input}
                     />

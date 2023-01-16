@@ -35,7 +35,7 @@ const CardBasic = (props) => {
         const appear = await fetch(props.episode[0])
         const response = await appear.json();
         Swal.fire({
-            title: `Primera aparición de ${props.name}`,
+            title: `First appearance of ${props.name}`,
             text: `Episodio: ${response.name} - ${response.episode}`,
             confirmButtonColor:'rgb(25, 28, 36)'
         })
@@ -57,7 +57,7 @@ const CardBasic = (props) => {
                         </div>
                     </div>
                     <div>
-                        <a onClick={firstAppear} className='first-appear' target="_blank">First appear</a>
+                        <a onClick={firstAppear} className='first-appear' target="_blank">First apparition</a>
                     </div>
                 </div>
             </Card.Body>
