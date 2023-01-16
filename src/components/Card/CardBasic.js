@@ -36,7 +36,7 @@ const CardBasic = (props) => {
         const response = await appear.json();
         Swal.fire({
             title: `First appearance of ${props.name}`,
-            text: `Episodio: ${response.name} - ${response.episode}`,
+            text: `Episode: ${response.name} - ${response.episode}`,
             confirmButtonColor:'rgb(25, 28, 36)'
         })
     }
