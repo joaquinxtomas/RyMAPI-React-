@@ -86,6 +86,7 @@ const Home = () => {
                     if (data.results) {
                         setCharacters(data.results)
                         setTablaUsuarios(data.results)
+                        console.log(characters)
                     } else {
                         setPagina(pagina - 1)
                     }
@@ -138,7 +139,6 @@ const Home = () => {
             <main ref={main}>
                 <div className='container-buttons d-flex'>
                     <button className='button1' onClick={cargarMenos}><BsArrowLeft /></button>
-
                     <button className='button2' onClick={cargarMas}><BsArrowRight /></button>
                 </div>
 

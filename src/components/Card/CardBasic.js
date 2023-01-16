@@ -1,12 +1,10 @@
 import React, { useEffect, useRef } from 'react'
-import { Button } from 'react-bootstrap'
 import { Card } from 'react-bootstrap'
-import { BsArrowDownCircle } from "react-icons/bs";
-import { BsFillCircleFill } from "react-icons/bs";
 import '../../css/filter.css'
 import { Routes, Route, Link } from 'react-router-dom';
 import { GoLocation } from "react-icons/go";
-import { RiNumber1 } from "react-icons/ri";
+import Swal from 'sweetalert2'
+
 
 
 const CardBasic = (props) => {
@@ -33,6 +31,16 @@ const CardBasic = (props) => {
 
     handleStatus() */
 
+    const firstAppear = async () =>{
+        const appear = await fetch(props.episode[0])
+        const response = await appear.json();
+        Swal.fire({
+            title: `Primera aparición de ${props.name}`,
+            text: `Episodio: ${response.name} - ${response.episode}`,
+            confirmButtonColor:'rgb(25, 28, 36)'
+        })
+    }
+
     return (
         <Card className='card-basic' key={props.id}>
             <Card.Img className='card-img' variant="top" src={props.image} />
@@ -49,7 +57,7 @@ const CardBasic = (props) => {
                         </div>
                     </div>
                     <div>
-                        <a href={props.episode[0]} className='first-appear' target="_blank">First appear</a>
+                        <a onClick={firstAppear} className='first-appear' target="_blank">First appear</a>
                     </div>
                 </div>
             </Card.Body>
