@@ -1,3 +1,6 @@
+DEMO https://randm-kkff.onrender.com/
+
+
 Primer proyecto utilizando React. Nuevamente una consumición de API de Rick and Morty, pero esta vez con dicho framework y rediseñado en base a avances en mis conocimientos. Incorpora un buscador en tiempo real y un paginado mejor optimizado que el proyecto sin React. 
 
 
